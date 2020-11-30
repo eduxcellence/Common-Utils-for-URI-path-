@@ -3,12 +3,12 @@ In Android when we pick an image, video, or any other type of file from the gall
 
 
 ## For Java :
-# We follow below Step :
+##### We follow below Step :
 
 String filePathFromURI = UtilsURIPath.getPathFromUri(context,"YOUR CONTENT URI");
 
 ## For Kotlin :
-# We follow below Step :
+##### We follow below Step :
 
 val utilsURIPath = UtilsURIPath()
 val filePathFromURI = utilsURIPath.getPath(context,"YOUR CONTENT URI")
